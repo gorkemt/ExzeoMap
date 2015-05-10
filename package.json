@@ -1,0 +1,15 @@
+{
+  "name": "ExzeoMappingApp",
+  "version": "0.0.0",
+  "description": "ExzeoMappingApp",
+  "main": "app.js",
+  "author": {
+    "name": "Gorkem",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "stylus": "*"
+  }
+}
