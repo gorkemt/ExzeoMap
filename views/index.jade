@@ -1,0 +1,17 @@
+﻿extends layout
+
+block content
+  #container
+   #topSection
+    label#appTitle Exzeo Map
+    br
+    label Current Location 
+    label#currentCoords Current Location:
+   #map
+   #mask
+    label#loadLabel Loading 0%
+    br
+    i.fa.fa-refresh.fa-spin
+   script(type='text/javascript' src='/javascripts/map.js')
+  
+  

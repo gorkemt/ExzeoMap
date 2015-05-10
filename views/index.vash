@@ -1,0 +1,18 @@
+﻿@html.extend('layout', function(model){
+	@html.block("body", function(model){
+		
+		@if(model.error){
+			<p>Error occurred: @model.error</p>
+		}
+		<script>@{var st=[];}
+		@model.states.features.forEach(function(feature){
+			st.push(feature);
+			
+		})
+		var f = @model.states;
+		</script>
+		<p>This is from server</p>
+		 <div id='map'></div>
+		<script src='/javascripts/map.js'></script>
+	})
+})
